@@ -1,0 +1,14 @@
+/*ANIMACIONES*/
+
+@keyframes anim1{
+    from {background-color:rgb(37, 51, 68, 0.98); color:white}
+    to {background-color: white; color:rgb(37, 51, 68, 0.98)}
+  }
+  h1 {
+  animation-name: anim1;
+  animation-duration: 8s;
+  animation-timing-function:linear;
+  animation-iteration-count:infinite;
+  animation-direction: alternate-reverse;
+  }    
+  
