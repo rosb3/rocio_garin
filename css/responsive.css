@@ -1,0 +1,259 @@
+/*INDEX*/
+/*INDEX*/
+
+/*MEDIA 768*/
+/*MEDIA 768*/
+
+
+@media screen and (max-width: 768px) {
+    .contenedor{
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-areas:
+    "nav nav "
+    "contenido contenido"
+    "bn2 bn2"
+    "bn3 bn3"
+    "pie pie";
+    }
+    
+    .contenido{
+      margin-top: 20px;
+    }
+  
+    .titulo {
+      width:auto
+    }
+  
+    .novedades {
+      padding-top: 20px;
+    }
+  
+    h2 {
+      text-align: center;
+    } 
+  
+    section figure {
+     width: 46%;
+     margin-bottom: 20px;
+    }
+  
+    .novedades__section {
+        flex-wrap:wrap;
+       flex-grow:46%;  
+    }
+  
+    .rrhh {
+      justify-content: center;
+      align-items: center;
+      
+    }
+  
+    .logo__redes {
+      padding: auto 10px auto 10px;
+      justify-content: space-evenly;
+      position: relative}
+
+      
+     
+  }
+ 
+/*MEDIA 480*/
+/*MEDIA 480*/
+
+
+@media screen and (max-width: 480px) {
+    .contenedor{
+    grid-template-columns:1fr;
+    grid-template-areas:
+    "nav "
+    "contenido"
+    "bn2"
+    "bn3"
+    "pie";
+    }
+
+nav {
+ width:auto;
+ 
+}  
+.nav__imagen {
+    width: 80px;
+  padding:0px;
+  margin-top:50px;
+  margin-left: 10px;
+}
+ nav ul li {
+    margin-right: 10px;
+    margin-left: 10px;
+ }
+nav ul li a {
+    font-size: 1rem;
+
+}
+  .nav__lista {
+    position: relative;
+    width: auto;
+  }
+  .titulo {
+    width: auto;
+  }
+  
+  .contenido{
+   width: auto;
+  }
+  
+  .novedades__section {
+    flex-direction: column;
+   }
+   section figure {
+    width: 70%;
+   justify-content: space-between;
+   margin:10px auto 10px auto;
+    padding-top: 10px;
+   padding-bottom: 10px;
+   }
+  
+  .tbnn{
+  font-size: medium;
+  }
+  .banner3 {
+    width: auto;
+  }
+  
+   .banner_2 {
+    width: 100%
+  }
+  
+  .rrhh{
+    flex-wrap: wrap;
+   height:100px;
+   width:auto ;
+  
+  }
+  
+  .rrhh__titulo {
+    text-align: center;
+    align-items: flex-start;
+    justify-content:center;
+    padding: 20px 0px 10px 0px;
+    width: 90%;
+    
+  }
+  .logo__redes {
+    align-items:flex-end;
+    justify-content: center;
+    width: 20px;
+    height: auto;
+    padding: 0px 5px 10px 0px;
+  }
+  
+  footer img {
+    width: 40px;
+  }
+  }
+  
+  /*PRODUCTOS*/
+  /*PRODUCTOS*/
+  
+  /*MEDIA 768*/
+
+  @media screen and (max-width: 768px) {
+    .contenedor_prod {
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-areas:
+      "nav nav"
+      "catp catp"
+      "bn bn"
+      "pie pie"; }
+  .categorias__sectionTitulo {
+    align-items: center;
+    margin-top: 30px;}
+  
+  main h2 {
+   justify-content: center;
+   
+  }
+
+  .titlec{
+    font-size: 1.5rem;
+  }
+  
+  .card_img {
+    width: 90%;
+    flex-direction: column;
+  }
+  .card_categoria:hover {
+    width: 100%;
+    border: 3px ridge #253344;}
+
+  .card_categoria {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin:5px;
+    padding:auto;
+    width: 100%;
+  }
+  
+  .titlec {
+  text-align:center;
+  padding-right: 20px;
+  }
+  
+  .categoria__img {
+    padding: auto;
+    width: 80%;
+  }
+  
+  .bnconsu {
+    margin-top: 20px;
+  }
+  }
+  
+  
+  /*MEDIA 480*/
+  @media screen and (max-width: 480px) {
+    .contenedor_prod {
+    grid-template-columns:1fr;
+    grid-template-areas:
+      "nav "
+      "catp"
+      "bn "
+      "pie"; }
+      nav {
+        width:auto;
+        
+       }  
+       .nav__imagen {
+           width: 80px;
+         padding:0px;
+         margin-top:50px;
+         margin-left: 20px;
+       }
+       
+       nav ul li a {
+           font-size: 1rem;
+       
+       }
+         .nav__lista {
+           position: relative;
+           width: auto;
+         }
+         
+         .categorias{
+            width: auto;
+           }         
+  .cat_tex {
+    flex-direction: column;
+  }
+  .card_categoria {
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 0px;
+   align-items: center;
+  }
+  
+  }
